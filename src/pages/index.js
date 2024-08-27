@@ -7,6 +7,7 @@ export default function Home() {
       <div className="bg-404-right" />
       <div className="flex items-center justify-center min-h-screen">
         <main className="m-auto max-w-3xl p-2">
+          {/* URL hotlinked to avoid copyright */}
           <img
             src="https://suno.com/logos/Logo-6.svg"
             width={151.75}
