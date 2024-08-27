@@ -2,7 +2,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Screenshots
 ### Desktop
-<img src="https://imgur.com/z1tPeAH">
+<img src="https://i.imgur.com/z1tPeAH.jpeg">
 
 ### Mobile 
-<img src="https://i.imgur.com/3Fk0EAA.png">
+<img src="https://i.imgur.com/3Fk0EAA.png" width="300px">
