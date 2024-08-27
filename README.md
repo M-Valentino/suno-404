@@ -5,4 +5,4 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 <img src="https://i.imgur.com/z1tPeAH.jpeg">
 
 ### Mobile 
-<img src="https://i.imgur.com/3Fk0EAA.png" width="300px">
+<img src="https://i.imgur.com/TPPEkCl.png" width="300px">
