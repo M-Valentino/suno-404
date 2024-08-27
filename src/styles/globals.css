@@ -25,5 +25,5 @@
 }
 
 .text-404-shadow {
-  text-shadow: #0e0808 1px 0 10px;
+  text-shadow: #0e0808 0 0 10px, #0e0808 0 0 15px;
 }
