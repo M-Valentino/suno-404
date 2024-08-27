@@ -2,32 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.bg-404-left, .bg-404-right {
+  position: absolute;
+  top: 0;
+  height: 100vh;
+  width: 30vw;
+  z-index: -1;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.bg-404-left {
+  left: 0;
+  background: linear-gradient(to right, #ffffff00 0%, #0e0808 100%),
+    url('https://suno.com/auras/Aura-06.jpg') no-repeat center center;
+  background-size: 30vw 100%;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.bg-404-right {
+  right: 0;
+  background: linear-gradient(to left, #ffffff00 0%, #0e0808 100%),
+    url('https://suno.com/auras/Aura-07.jpg') no-repeat center center;
+  background-size: 30vw 100%;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.text-404-shadow {
+  text-shadow: #0e0808 1px 0 10px;
 }
